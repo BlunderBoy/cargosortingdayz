@@ -9,45 +9,45 @@
 
 class CfgPatches
 {
-    class CargoSorting
-    {
-        requiredAddons[] = {"DZ_Data","DZ_Animals","DZ_Characters","DZ_AI","DZ_Scripts"};
-    };
+	class CargoSorting
+	{
+		requiredAddons[] = {"DZ_Data","DZ_Animals","DZ_Characters","DZ_AI","DZ_Scripts"};
+	};
 };
 class CfgMods
 {
-    class CargoSorting
-    {
-        dir = "CargoSorting";
-        picture = "";
-        action = "";
-        hideName = 0;
-        hidePicture = 1;
-        name = "CargoSorting";
-        credits = "CargoSorting Team";
-        author = "CargoSorting Team";
-        authorID = "0";
-        version = "1.0";
-        extra = 0;
-        type = "mod";
-        dependencies[] = {"Game","World","Mission"};
-        class defs
-        {
-            class gameScriptModule
-            {
-                value = "";
-                files[] = {"CargoSorting/scripts/3_Game","CargoSorting/scripts/Common"};
-            };
-            class worldScriptModule
-            {
-                value = "";
-                files[] = {"CargoSorting/scripts/4_World","CargoSorting/scripts/Common"};
-            };
-            class missionScriptModule
-            {
-                value = "";
-                files[] = {"CargoSorting/scripts/5_Mission","CargoSorting/scripts/Common"};
-            };
-        };
-    };
+	class CargoSorting
+	{
+		dir = "CargoSorting";
+		picture = "";
+		action = "";
+		hideName = 0;
+		hidePicture = 1;
+		name = "CargoSorting";
+		credits = "FUCK_521";
+		author = "FUCK_521";
+		authorID = "0";
+		version = "0.1";
+		extra = 0;
+		type = "mod";
+		dependencies[] = {"Game","World","Mission"};
+		class defs
+		{
+			class gameScriptModule
+			{
+				value = "";
+				files[] = {"CargoSorting/scripts/3_Game","CargoSorting/scripts/Common"};
+			};
+			class worldScriptModule
+			{
+				value = "";
+				files[] = {"CargoSorting/scripts/4_World","CargoSorting/scripts/Common"};
+			};
+			class missionScriptModule
+			{
+				value = "";
+				files[] = {"CargoSorting/scripts/5_Mission","CargoSorting/scripts/Common"};
+			};
+		};
+	};
 };
